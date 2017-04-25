@@ -1,6 +1,6 @@
 # npmtest-exit
 
-#### test coverage for  [exit (v0.1.2)](https://github.com/cowboy/node-exit)  [![npm package](https://img.shields.io/npm/v/npmtest-exit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-exit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-exit.svg)](https://travis-ci.org/npmtest/node-npmtest-exit)
+#### basic test coverage for  [exit (v0.1.2)](https://github.com/cowboy/node-exit)  [![npm package](https://img.shields.io/npm/v/npmtest-exit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-exit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-exit.svg)](https://travis-ci.org/npmtest/node-npmtest-exit)
 
 #### A replacement for process.exit that ensures stdio are fully drained before exiting.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-exit/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-exit/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-exit/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-exit/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-exit/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-exit/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-exit/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-exit/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-exit/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-exit/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-exit/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-exit/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
     "scripts": {
         "test": "grunt nodeunit"
     },
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "bin": {}
 }
 ```
 
